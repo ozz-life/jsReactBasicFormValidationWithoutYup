@@ -18,7 +18,7 @@ const Badje = () => {
           {/* Посетитель */}
           <div className='form-row'>
             <div className='form-group col-5'>
-              <label>Посетитель</label>
+              <label>Посетитель: </label>
               <input
                 name='firstName'
                 type='text'
@@ -39,7 +39,7 @@ const Badje = () => {
           {/* Дата посещения */}
           <div className='form-row'>
             <div className='form-group col-5'>
-              <label>Дата посещения:</label>
+              <label>Дата посещения: </label>
 
               <input
                 type='date'
